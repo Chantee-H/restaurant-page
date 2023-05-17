@@ -35,4 +35,9 @@ homeInfo.appendChild(para3);
 para1.textContent = 'The best tasting ice cream around.';
 para2.textContent = 'Come down and visit us or order online!';
 para3.textContent = 'Mon-Fri: 9am-7pm & Sat-Sun: 9am-8pm';
+
+let footer = document.createElement('div');
+main.appendChild(footer);
+footer.classList.add('footer');
+footer.textContent = 'Background image by Sketchepedia on Freepik'
 }

@@ -15,3 +15,5 @@ function tabSwitch(){
     const contactTab = document.querySelector('.contact');
     contactTab.addEventListener('click', contact);
 }
+
+tabSwitch();
