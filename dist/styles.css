@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./image/ice-cream-bg.jpg);
+}
+
+.head-background {
+    background-color: #000;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+   
+h1 {
+   color: #fff;
+   font-size: 40px;
+   margin-top: 10px;
+}
+
+.homeInfo {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color: #000;
+    opacity: 0.9;
+    margin-top: 185px;
+    width: 700px;
+    height: 380px;
+    padding: 50px 0 1px 0;
+}
+
+.homeInfo p {
+    margin-top: 40px;
+}
