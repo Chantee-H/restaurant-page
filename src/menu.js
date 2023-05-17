@@ -1,5 +1,6 @@
-function menu(){
+export function menu(){
 const main = document.getElementById('main');
+main.replaceChildren();
 
 let menuInfo = document.createElement('div');
 let menuhead1 = document.createElement('h3');

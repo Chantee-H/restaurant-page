@@ -1,5 +1,6 @@
-function contact(){
+export function contact(){
 const main = document.getElementById('main');
+main.replaceChildren();
 
 let contactInfo = document.createElement('div');
 let contactHead = document.createElement('h3');
