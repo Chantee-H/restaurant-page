@@ -1,27 +1,6 @@
 export function initialLoad(){
-const main = document.getElementById('main');
+const main = document.querySelector('#main');
 main.replaceChildren();
-
-let headBackground = document.createElement('div');
-main.appendChild(headBackground);
-headBackground.classList.add('head-background')
-
-let home = document.createElement('button');
-let menu = document.createElement('button');
-let contact = document.createElement('button');
-headBackground.appendChild(home);
-headBackground.appendChild(menu);
-headBackground.appendChild(contact);
-home.textContent = 'Home';
-menu.textContent = 'Menu';
-contact.textContent = 'Contact';
-home.classList.add('home');
-menu.classList.add('menu');
-contact.classList.add('contact');
-
-let h1 = document.createElement('h1');
-headBackground.appendChild(h1);
-h1.textContent = 'The Ice Cream Palace'
 
 let homeInfo = document.createElement('div');
 let para1 = document.createElement('p');
@@ -41,3 +20,4 @@ main.appendChild(footer);
 footer.classList.add('footer');
 footer.textContent = 'Background image by Sketchepedia on Freepik'
 }
+

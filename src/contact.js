@@ -1,5 +1,5 @@
 export function contact(){
-const main = document.getElementById('main');
+const main = document.querySelector('#main');
 main.replaceChildren();
 
 let contactInfo = document.createElement('div');
@@ -17,4 +17,10 @@ contactHead.textContent = 'Contact Us';
 contactpara1.textContent = '011 234 5678';
 contactpara2.textContent = 'theicecreampalace@gmail.com';
 contactpara3.textContent = '55 Ice Cream Road, Bedfordview, Johannesburg, 2008';
+
+
+let footer = document.createElement('div');
+main.appendChild(footer);
+footer.classList.add('footer');
+footer.textContent = 'Background image by Sketchepedia on Freepik'
 }

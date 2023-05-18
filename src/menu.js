@@ -1,5 +1,5 @@
 export function menu(){
-const main = document.getElementById('main');
+const main = document.querySelector('#main');
 main.replaceChildren();
 
 let menuInfo = document.createElement('div');
@@ -32,4 +32,9 @@ menuhead2.textContent = 'Drinks';
 menuItem5.textContent = 'Milkshakes';
 menuItem6.textContent = 'Hot Drinks';
 menuItem7.textContent = 'Cold Drinks';
+
+let footer = document.createElement('div');
+main.appendChild(footer);
+footer.classList.add('footer');
+footer.textContent = 'Background image by Sketchepedia on Freepik'
 }
