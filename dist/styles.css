@@ -98,7 +98,7 @@ button:hover {
     font-size: 20px;
     margin-top: 30px;
 }
-
+/* 
 .footer {
     color: #fff;
     background-color: #000;
@@ -110,7 +110,7 @@ button:hover {
     bottom: 0;
     right: 0;
     width: 100%;
-}
+} */
 
 @media screen and (max-width: 539px){
 h1 {
@@ -143,10 +143,10 @@ button {
     margin-top: 100px;
 }
 
-.footer {
+/* .footer {
     font-size: 16px;
     padding: 15px;
-} 
+}  */
 }
  
 @media screen and (min-width: 540px) and (max-width: 767px){
