@@ -122,7 +122,8 @@ button {
 }
 
 .homeInfo, .menuInfo, .contactInfo {
-    margin-top: 250px;
+    margin-top: 400px;
+    margin-bottom: 100px;
     height: 600px;
 }
     
