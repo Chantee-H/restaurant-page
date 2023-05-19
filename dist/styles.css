@@ -61,7 +61,8 @@ button:hover {
     opacity: 0.9;
     margin-top: 185px;
     width: 700px;
-    height: 380px;
+/*     height: 380px; */
+    height: 60vh;
 }
 
 .homeInfo {
